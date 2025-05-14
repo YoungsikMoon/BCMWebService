@@ -47,12 +47,10 @@ git config --global i18n.commit.encoding utf-8
 # 한글 파일명 깨짐 방지
 git config --global core.quotepath false
 
-# 기본 인코딩을 UTF-8로 설정
-git config --global core.encoding utf-8
-
-# 커밋 메시지 인코딩 설정
-git config --global i18n.commit.encoding utf-8
+# GUI 인코딩 설정
+git config --global gui.encoding utf-8
 
 # 로그 출력 인코딩 설정
 git config --global i18n.logoutputencoding utf-8
+```
 ```
