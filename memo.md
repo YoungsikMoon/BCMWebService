@@ -12,3 +12,6 @@ git push -u origin main
 git remote add origin https://github.com/YoungsikMoon/BCMWebService.git
 git branch -M main
 git push -u origin main
+
+
+git config --global i18n.commit.encoding utf-8
